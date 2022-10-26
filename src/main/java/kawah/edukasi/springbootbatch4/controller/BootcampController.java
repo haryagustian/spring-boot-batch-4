@@ -6,23 +6,23 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/bootcamp")
 public class BootcampController {
 
-  @GetMapping
+  @GetMapping()
   public String get(){
-    return "Tested GET Request";
+    return "Spring Boot Tested GET Request";
   }
 
   @PostMapping
   public String post(){
-    return "Tested POST Request";
+    return "Spring Boot Tested POST Request";
   }
 
   @PutMapping
   public String put(){
-    return "Tested PUT Request";
+    return "Spring Boot Tested PUT Request";
   }
 
   @DeleteMapping
   public String del(){
-    return "Tested DELETE Request";
+    return "Spring Boot Tested DELETE Request";
   }
 }
