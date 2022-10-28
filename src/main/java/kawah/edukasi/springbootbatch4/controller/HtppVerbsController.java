@@ -3,8 +3,8 @@ package kawah.edukasi.springbootbatch4.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/bootcamp")
-public class BootcampController {
+@RequestMapping("/http-verbs")
+public class HtppVerbsController {
 
   @GetMapping()
   public String get(){
